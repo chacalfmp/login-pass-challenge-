@@ -11,6 +11,7 @@ h2{
     
     color: #636363;
     font: bold 12px 'Open Sans', HelveticaNeue, Helvetica, Arial;
+    padding-left: 5px;
 }
 
 hr {
@@ -33,6 +34,7 @@ i {
 }
 
 
+
 .card-h2{
     background-color: #eaeaea;
     margin: 0;
@@ -40,14 +42,14 @@ i {
     border-bottom: 1px solid #cdcdcd;
 }
 .img {
-    width: 80px;
+    width: 75px;
     display: inline-block;
     padding: 0;
 }
 
 .img-contact {
     display: block;
-    padding: 15px;
+    padding: 0 15px;
 }
 
 .main-card {
@@ -57,11 +59,11 @@ i {
     margin-top: 50px;
     border: 1px solid #cdcdcd;
     border-radius: 3px;
-    background-color: white;
+    background-color: #FBFBFB;
 }
 
 .form-all {
-    padding: 15px;
+    padding: 10px 15px;
 }
 
 .form-all input {
@@ -92,10 +94,12 @@ i {
 
 
 .duvidas-p {
+    display: inline-block;
     text-align: center;
     font: normal 12px 'Open Sans', HelveticaNeue, Helvetica, Arial;
     color: #5a6573;
-    padding: 0 20px;
+    padding: 15px;
+    text-decoration: none;
 }
 
 .button{
@@ -106,6 +110,7 @@ i {
     border: 2px solid black;
     border-radius: 3px;
     padding: 8px;
+    margin-top: 10px;
 }
 
 button:hover {
@@ -124,11 +129,15 @@ button:hover {
     font: normal 10px 'Open Sans', HelveticaNeue, Helvetica, Arial;
     color: #78808a;
     text-align: right;
-    padding-right: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
         }
 
 .last-p {
     color: #78808a;
     text-decoration: underline;
     font: normal 12px 'Open Sans', HelveticaNeue, Helvetica, Arial;
+    display: block;
+    text-align: center;
+    padding: 20px;
 }
