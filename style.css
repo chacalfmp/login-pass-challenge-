@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url(https://portal.sponteeducacional.net.br/Layout/images/bg.png);
+}
+
+h2{
+    
+    color: #636363;
+    font: bold 12px 'Open Sans', HelveticaNeue, Helvetica, Arial;
+}
+
+hr {
+    width: 90%;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid white;
+    border-style: solid;
+    list-style: none;
+}
+
+i {
+    position: absolute;
+    display: flex;
+    border: 1px solid #cdcdcd;
+    margin: 10px;
+    margin-left: 0;
+    padding: 8px;
+    border-radius: 3px 0 0 3px;
+    background-color: #eaeaea;
+}
+
+
+.card-h2{
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 5px 5px 0;
+    border-bottom: 1px solid #cdcdcd;
+}
+.img {
+    width: 80px;
+    display: inline-block;
+    padding: 0;
+}
+
+.img-contact {
+    display: block;
+    padding: 15px;
+}
+
+.main-card {
+    width: 25%;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #cdcdcd;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.form-all {
+    padding: 15px;
+}
+
+.form-all input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #cdcdcd;
+    border-radius: 3px;
+
+
+}
+
+.top-div {
+    background-color: #0a0a0a;
+}
+
+.top-div h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font: bold 20px 'Open Sans', HelveticaNeue, Helvetica, Arial;
+    padding: 5px 0 10px;
+}
+
+.last-p {
+    text-align: center;
+}
+
+
+.duvidas-p {
+    text-align: center;
+    font: normal 12px 'Open Sans', HelveticaNeue, Helvetica, Arial;
+    color: #5a6573;
+    padding: 0 20px;
+}
+
+.button{
+    width: 98%;
+    font: bold 12px 'Open Sans', HelveticaNeue, Helvetica, Arial;
+    color: white;
+    background-color: #0a0a0a;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+button:hover {
+    background-color: rgb(43, 28, 38);
+}
+.contact {
+    font: normal 12px 'Open Sans', HelveticaNeue, Helvetica, Arial;
+    display: inline-block;
+    text-align: right;
+    color: #707070;
+    
+
+}
+
+.senha-p {
+    font: normal 10px 'Open Sans', HelveticaNeue, Helvetica, Arial;
+    color: #78808a;
+    text-align: right;
+    padding-right: 10px;
+        }
+
+.last-p {
+    color: #78808a;
+    text-decoration: underline;
+    font: normal 12px 'Open Sans', HelveticaNeue, Helvetica, Arial;
+}
